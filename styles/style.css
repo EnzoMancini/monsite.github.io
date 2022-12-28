@@ -1,5 +1,30 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
 header{
     width: 100%;
     background-color: #1d251d;
-    height: 100px;
+    position: fixed;
+    height: 10%;
+    padding-left: 10%;
+}
+
+#button1{
+    height: 100%;
+    width: 14%;
+    border: 0;
+    background-color: #1d251d;
+    transition-duration: 1s;
+}
+
+#button1:hover{
+    background-color: darkcyan;
+    transition-duration: 1s;
+}
+
+.txt{
+    color: azure;
+    font-size: larger;
 }
